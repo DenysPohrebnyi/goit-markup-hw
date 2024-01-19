@@ -1,0 +1,142 @@
+/* base */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03px;
+}
+
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* header */
+
+.header{}
+
+.logo-art-header {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #404BBF;
+}
+
+.address {
+}
+
+.address-link {
+    font-style: normal;
+    color: #434455;
+    font-size: 16px;
+    }
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+/* hero-section */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFF;
+}
+
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* features-section */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* our-team-section */
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
+/* our-portfolio-section */
+
+
+/* footer */
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo-art-footer {
+    color: #F4F4FD;
+       
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
