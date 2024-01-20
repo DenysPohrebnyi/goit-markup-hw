@@ -23,14 +23,18 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .section-title {
     color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    
 }
 
 .subtitle {
@@ -38,6 +42,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /* header */
@@ -62,10 +67,10 @@ a {
 }
 
 .address {
+    font-style: normal;
 }
 
 .address-link {
-    font-style: normal;
     color: #434455;
     font-size: 16px;
     }
@@ -86,6 +91,7 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFF;
+    text-align: center;
 }
 
 .hero-button {
@@ -93,7 +99,7 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -107,16 +113,15 @@ a {
 /* features-section */
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.features-text {
 }
 
 /* our-team-section */
@@ -124,8 +129,19 @@ a {
     background-color: #F4F4FD;
 }
 
+.our-team-item {
+    background-color: #FFFFFF;
+}
+
+.our-team-item-text {
+    font-size: 16px;
+}
+
 /* our-portfolio-section */
 
+
+
+.our-portfolio-item-text {}
 
 /* footer */
 .footer {
